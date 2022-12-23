@@ -13,40 +13,42 @@
     const links = [
         { url: "/", title: "Home" },
         { url: "/poetry", title: "Poetry" },
-        { url: "/essays", title: "Essays" },
-        { url: "/philosophy", title: "Philosophy" },
+        { url: "/essays", title: "Essays" }
     ];
 </script>
 
 <header class="header">
-    <div class="logo-center">
-        <a class="logo" href="/">ST</a>
-    </div>
-    <Hamburger class="ham" on:click={toggle} />
-    <nav class={`${checked ? 'nav-open' : ''} nav`} use:clickOutside on:click_outside={clickAway}>
-        <div class="close-container">
-            <button class="close-button" on:click={clickAway}>
-                <div class="cross-one">
-                    <div class="cross-two" />
-                </div>
-            </button>
+    <div class="nav-container">
+        <div class="logo-center">
+            <a class="logo" href="/">ST</a>
         </div>
-        <ul class="menu">
-            {#each links as link}
-                <li>
-                    <a href={link.url}>
-                        {link.title}
-                    </a>
-                </li>
-            {/each}
-        </ul>
-    </nav>
+        <Hamburger class="ham" on:click={toggle} />
+        <nav class={`${checked ? 'nav-open' : ''} nav`} use:clickOutside on:click_outside={clickAway}>
+            <div class="close-container">
+                <button class="close-button" on:click={clickAway}>
+                    <div class="cross-one">
+                        <div class="cross-two" />
+                    </div>
+                </button>
+            </div>
+            <ul class="menu">
+                {#each links as link}
+                    <li>
+                        <a href={link.url}>
+                            {link.title}
+                        </a>
+                    </li>
+                {/each}
+            </ul>
+        </nav>
+    </div>
 </header>
 
 <style>
     .header {
+        font-family: 'Poppins', Georgia, 'Times New Roman', Times, serif;
         display: flex;
-        justify-content: space-between;
+        justify-content: stretch;
         background-color: var(--black);
         box-shadow: 1px 1px 5px 0px var(--gray);
         position: sticky;
@@ -54,6 +56,14 @@
         width: 100%;
         padding: 0 15px 0 15px;
     }
+
+    .nav-container {
+        width: 100%;
+        max-width: var(--max-content);
+        display: flex;
+        justify-content: space-between;
+    }
+
     .logo {
         display: inline-block;
         color: var(--white);
@@ -99,6 +109,7 @@
 
     .nav.nav-open {
         max-width: 100%;
+        box-shadow: 0px 0px 20px 1px #8a8a8a;
     }
 
     .close-container {
@@ -146,6 +157,10 @@
         .header {
             min-height: 100%;
             align-items: stretch;
+            justify-content: center;
+        }
+
+        .nav-container {
             justify-content: left;
         }
 

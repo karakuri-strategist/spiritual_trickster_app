@@ -1,0 +1,11 @@
+---
+const allPosts = await Astro.glob('./poetry/*.md');
+const json = JSON.stringify(allPosts.map(p => {
+    return {
+        title: p.frontmatter.title,
+        pubDate: p.frontmatter.pubDate,
+        slug: p.url
+    }
+}));
+---
+{json}

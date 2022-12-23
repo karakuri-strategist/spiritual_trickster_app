@@ -1,0 +1,45 @@
+---
+import Layout from "../layouts/Layout.astro";
+const allPoems = await Astro.glob('./poetry/*.md');
+---
+
+<Layout title="Poetry">
+    <h1>Poetry</h1>
+    <div class="warning-container">
+        <a class="mobile-warning" href="/mobile_warning">Viewing on Mobile: A Warning</a>
+    </div>
+    <ul class="poems">
+        {allPoems.map((p: any) => (
+            <li class="poem">
+                <a href={p.url}>{p.frontmatter.title}</a>
+            </li>
+        ))}
+    </ul>
+</Layout>
+
+<style>
+    h1 {
+        margin-bottom: 4px;
+    }
+
+    .mobile-warning {
+        font-size: 1.2em;
+        margin-bottom: 1000px;
+    }
+
+    .mobile-warning:link,:visited {
+        color: rgb(0, 66, 209);
+    }
+
+    .warning-container {
+        margin-bottom: 40px;
+    }
+
+    .poems li {
+        font-size: 1.2em;
+    }
+
+    .poems * + * {
+        margin-top: 0.8em;
+    }
+</style>

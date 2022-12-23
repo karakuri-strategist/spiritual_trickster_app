@@ -1,7 +1,10 @@
 /* Theming */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;400&display=swap');
 
 :root{
+    --max-content: 1080px;
+    --background: #F0F2F5;
     --white: #f9f9f9;
     --black: #36383F;
     --gray: #636669;
@@ -14,11 +17,34 @@
     box-sizing: border-box;
 }
 body{
-    font-family: "Poppins", sans-serif;
+    font-family: "Source Serif Pro", sans-serif;
 }
 a{
     text-decoration: none;
 }
+
 ul{
     list-style: none;
 }
+
+pre {
+    overflow: auto;
+    font-family: "Source Serif Pro", sans-serif;
+    font-size: 1.25em;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+pre::-webkit-scrollbar {
+    display: none;
+  }
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+pre {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+a:link           { color: rgb(1, 2, 94) }  /* unvisited links       */
+a:visited        { color: rgb(1, 2, 94) }          
+a:hover, a:focus { color: #00c }  /* user hovers, or focus */
+a:active         { color: #ccc }  /* active links          */

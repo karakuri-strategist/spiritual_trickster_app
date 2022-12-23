@@ -1,5 +1,6 @@
 ---
 import Header from '../components/Header.svelte';
+import ContentContainer from '../components/ContentContainer.astro';
 import '../styles/global.css';
 export interface Props {
 	title: string;
@@ -19,7 +20,9 @@ const { title } = Astro.props;
 	</head>
 	<body>
 		<Header client:load />
-		<slot />
+		<ContentContainer>
+			<slot />
+		</ContentContainer>
 	</body>
 </html>
 <style is:global>
@@ -29,7 +32,7 @@ const { title } = Astro.props;
 	}
 	html {
 		font-family: system-ui, sans-serif;
-		background-color: #F6F6F6;
+		background-color: rgb(248, 249, 250);
 	}
 	code {
 		font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
