@@ -1,0 +1,24 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ListContent from "../components/ListContent.astro";
+let allThoughts = await Astro.glob("./ramblings/*.md");
+---
+
+<Layout title="Ramblings">
+    <h1>Ramblings</h1>
+    <p class="description">
+        Some more coherent, some less. Some probably deserve the title "essay,"
+        while others... you know, the point of this site is to become shameless,
+        and I couldn't accomplish that goal if I didn't post anything I wasn't a
+        bit embarrased of writing. So here you go.
+    </p>
+    <ListContent content={allThoughts} />
+</Layout>
+<style>
+
+    .description {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+ 
+</style>

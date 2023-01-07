@@ -1,13 +1,13 @@
 ---
 layout: '../layouts/ArticleLayout.astro'
-title: The Social Contract
+title: The Contract
 ---
 
-Know that by entering, you are stepping into the pornographic theater of my soul. This is my space for spiritual and mental exhibitionism.
+This is a social contract between author and reader. Henceforth, I am no longer responsible for anything you experience here. Know that by entering, you are stepping into the pornographic theater of my soul. This is my space for spiritual and mental exhibitionism.
 If you come in here, and feel as if you are a parent who has walked in on their child masturbating,
 know that I have already put a sign up on the door saying, "I AM MASTURBATING, TAKE A PEEK IF YOU WANT."
 
-That is not to say that this site is full of sexual content - there is almost none. But there is plenty of obscenity -
+That is not to say that this site is full of sexual content - not to say that there's none. But there is plenty of obscenity -
 this is my place to share every thought that pops into my head, the ones you always withhold in casual conversation
 because they are simply not appropriate to the circumstance. I would go as far as to say as it would be morally wrong to simply impose them on a conversation.
 Not only because they are inappropriate, but also because they are convoluted and boring.
@@ -25,7 +25,7 @@ I'm not trying to ensnare you by giving it a title that gives you no context as 
 (WARNING: it is your choice to continue reading the next sentence.)
 Like, for example, an article titled, "10 of the most ADORABLE Chihuahuas you will ever see!"
 and when you click on it an image of a filthy obese man in an old barn sucking a horses cock immediately loads at the top of the screen.
-I would certainly be morally responsible for misleading you in such a way.
+I would certainly be responsible for misleading you in such a way.
 
 But I won't do that here. You consent to what you see knowing that I have done my best to inform you of what is waiting for you.
 And perhaps you will even feel violated by the titles themselves. But what am I supposed to do??? How can I warn you without giving the content a title?

@@ -1,0 +1,23 @@
+---
+let { content } = Astro.props;
+// @ts-ignore
+content = content.sort((p1, p2) => new Date(p2.frontmatter.pubDate) - new Date(p1.frontmatter.pubDate));
+---
+
+<ul class="content">
+    {content.map((p: any) => (
+        <li class="poem">
+            <a href={p.url}>{p.frontmatter.title}</a>
+        </li>
+    ))}
+</ul>
+
+<style>
+    .content li {
+        font-size: 1.2em;
+    }
+
+    .content * + * {
+        margin-top: 0.8em;
+    }
+</style>

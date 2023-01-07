@@ -1,0 +1,15 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ListContent from "../components/ListContent.astro";
+let allThoughts = await Astro.glob('./thoughts/*.md');
+---
+
+<Layout title="Thoughts">
+    <h1>Thoughts</h1>
+    <ListContent content={allThoughts}/>
+</Layout>
+<style>
+    h1 {
+        margin-bottom: 30px;
+    }
+</style>

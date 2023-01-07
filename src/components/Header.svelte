@@ -13,7 +13,8 @@
     const links = [
         { url: "/", title: "Home" },
         { url: "/poetry", title: "Poetry" },
-        { url: "/essays", title: "Essays" }
+        { url: '/thoughts', title: 'Thoughts' },
+        { url: "/ramblings", title: "Ramblings" }
     ];
 </script>
 

@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
-const allPoems = await Astro.glob('./poetry/*.md');
+import ListContent from "../components/ListContent.astro";
+let allPoems = await Astro.glob('./poetry/*.md');
 ---
 
 <Layout title="Poetry">
@@ -8,15 +9,8 @@ const allPoems = await Astro.glob('./poetry/*.md');
     <div class="warning-container">
         <a class="mobile-warning" href="/mobile_warning">Viewing on Mobile: A Warning</a>
     </div>
-    <ul class="poems">
-        {allPoems.map((p: any) => (
-            <li class="poem">
-                <a href={p.url}>{p.frontmatter.title}</a>
-            </li>
-        ))}
-    </ul>
+    <ListContent content={allPoems}/>
 </Layout>
-
 <style>
     h1 {
         margin-bottom: 4px;
@@ -33,13 +27,5 @@ const allPoems = await Astro.glob('./poetry/*.md');
 
     .warning-container {
         margin-bottom: 40px;
-    }
-
-    .poems li {
-        font-size: 1.2em;
-    }
-
-    .poems * + * {
-        margin-top: 0.8em;
     }
 </style>
