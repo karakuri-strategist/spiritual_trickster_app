@@ -17,20 +17,20 @@ By hiding myself away.
 
 Then I privately attempted
 To prove that I was right.
-But I kept making something
-Out of nothing.
+But I kept pulling myself
+Out of thin air.
 How?
 
 Now I am agnostic about myself.
 Am I an empty sack
-Full of trinkets and tricks
+Full of tricks and trinkets
 Or am I really a magic hat?
 Does trying to pull the rabbit out
 Make it appear?
 
 Now I show people the mystery
-I can’t wrap my head around.
+I can’t figure out.
 I tell them,
-I don’t know myself
-Can you figure me out?
+I don’t know myself -
+Do you?
 </pre>
