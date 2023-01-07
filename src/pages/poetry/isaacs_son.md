@@ -1,6 +1,6 @@
 ---
 layout: '../../layouts/PoetryLayout.astro'
-title: 'Isaac's Son'
+title: Isaac's Son
 pubDate: 2022-12-19
 ---
 
