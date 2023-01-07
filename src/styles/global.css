@@ -4,6 +4,7 @@
 
 :root{
     --max-content: 660px;
+    --desktop: 801px;
     --background: #F0F2F5;
     --white: #f9f9f9;
     --black: #36383F;
@@ -58,7 +59,7 @@ a:visited        { color: rgb(1, 2, 94) }
 a:hover, a:focus { color: #00c }  /* user hovers, or focus */
 a:active         { color: #ccc }  /* active links          */
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: var(--desktop)) {
     p {
         font-size: 18px;
     }
