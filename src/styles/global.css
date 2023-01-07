@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;400&display=swap');
 
 :root{
-    --max-content: 1080px;
+    --max-content: 660px;
     --background: #F0F2F5;
     --white: #f9f9f9;
     --black: #36383F;
@@ -44,7 +44,22 @@ pre {
 scrollbar-width: none;  /* Firefox */
 }
 
+p {
+    margin-top: 20px;
+    font-size: 20px;
+    word-break: break-word;
+}
+
+
+
+
 a:link           { color: rgb(1, 2, 94) }  /* unvisited links       */
 a:visited        { color: rgb(1, 2, 94) }          
 a:hover, a:focus { color: #00c }  /* user hovers, or focus */
 a:active         { color: #ccc }  /* active links          */
+
+@media screen and (min-width: 801px) {
+    p {
+        font-size: 18px;
+    }
+}
