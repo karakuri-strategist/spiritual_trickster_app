@@ -14,6 +14,7 @@
         { url: "/", title: "Home" },
         { url: "/poetry", title: "Poetry" },
         { url: '/thoughts', title: 'Thoughts' },
+        { url: '/essays', title: 'Essays' },
         { url: "/ramblings", title: "Ramblings" }
     ];
 </script>
