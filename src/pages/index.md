@@ -11,8 +11,6 @@ There is a kind of gushing, poetic, spiritual, realer-than-real creative impulse
 
 I want to show myself trying to show myself. But I am still twisting all the knobs - am I showing myself showing myself, or am I showing you what I what I want you to think me trying to show myself looks like? Is authenticity impossible? Don't overthink it, Alec, you're not that smart. And I want to share my darker thoughts. Not mostly or only those, but it's important to me that I share them, just so that they're not bottled up. Remember - total shamelessness is the goal. Maybe people will think less of me. Maybe they’ll think more? I care, but I want not to.
 
-Some of my interests have been formed in this period of my life, and I’d like to disentangle them from my insecurity and desperation. Maybe I really will uncover the nature of reality? (No, I won’t.) Maybe I’ll even strike you deep with something from my bag of cheap tricks. I’m sorry. That’s cruel of me, both to you and to myself - it’s okay, to feel. But what comes after emotional intensity? Beauty can help us cope with life, help us survive - but survive so that we can do what? Experience more and more beauty of ever greater potency, in an oversexed maelstrom of sentimentality? Pleasure can become pain. It can cloud our vision, and make us ignorant of ourselves.
-
 I don’t want to be ashamed of anything, and that includes being ashamed of being ashamed, resenting myself for not being strong enough to let it all out, regardless of what anyone will think of me. So, here we go. Here I am, pressing the big red button. Whatever happens, happens.
 
 Before you continue, maybe you'd like to read the social contract.
